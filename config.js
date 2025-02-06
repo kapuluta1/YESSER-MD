@@ -11,7 +11,7 @@ module.exports = {
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
     READ_MESSAGE: process.env.READ_MESSAGE || "true", // Added auto-read configuration
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
